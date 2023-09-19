@@ -1,14 +1,14 @@
 import { AppHeader } from "./components/AppHeader";
 import { AppLayout } from "./components/AppLayout";
 
-import "./App.css";
+import "./scss/main.scss";
 
 function App() {
-  return (
-    <AppLayout>
-      <AppHeader />
-    </AppLayout>
-  );
+    return (
+        <AppLayout>
+            <AppHeader />
+        </AppLayout>
+    );
 }
 
 export default App;
