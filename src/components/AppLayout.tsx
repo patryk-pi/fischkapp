@@ -1,4 +1,5 @@
 import React from "react";
+import styles from "./AppLayout.module.css";
 import { ReactNode } from "react";
 
 type AppLayoutProps = {
@@ -6,5 +7,5 @@ type AppLayoutProps = {
 };
 
 export const AppLayout = (props: AppLayoutProps) => (
-    <div className={"layout"}>{props.children}</div>
+    <div className={styles.layout}>{props.children}</div>
 );
