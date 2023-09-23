@@ -1,4 +1,33 @@
-/* .header {
-  height: 60px;
-  background: #fff;
-} */
+.header {
+    height: 60px;
+    background: #fff;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 0 15px;
+    justify-content: space-between;
+}
+
+.summary {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 15px;
+}
+
+.counter h1 {
+    font-family: "Lexend", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.button {
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+}

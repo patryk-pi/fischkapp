@@ -14,8 +14,21 @@
         "resolveJsonModule": true,
         "isolatedModules": true,
         "noEmit": true,
-        "jsx": "react-jsx"
+        "jsx": "react-jsx",
+        "plugins": [
+            {
+                "name": "typescript-plugin-css-modules",
+                "options": {
+                    "classnameTransform": "dashes",
+                    "customMatcher": "\\.m\\.css$",
+                    "customRenderer": "./myRenderer.js",
+                    "dotenvOptions": {},
+                    "postcssOptions": {},
+                    "rendererOptions": {}
+                }
+            }
+        ]
     },
-    "include": ["src"],
+    "include": ["src/**/*.ts", "src/**/*.tsx", "global.d.ts"],
     "references": [{ "path": "./tsconfig.node.json" }]
 }
