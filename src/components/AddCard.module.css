@@ -1,0 +1,8 @@
+.addCard {
+    width: 343px;
+
+    background: white;
+    border-radius: 15px;
+    margin: 0 auto;
+    padding: 15px;
+}
